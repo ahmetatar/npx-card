@@ -1,0 +1,26 @@
+{
+  "name": "ahmetatar",
+  "version": "1.0.1",
+  "description": "A personal card for Ahmet Atar (@ahmetatar)",
+  "main": "./lib/cli.js",
+  "bin": {
+    "ahmetatar": "./lib/cli.js"
+  },
+  "scripts": {},
+  "keywords": [
+    "npx card",
+    "business card"
+  ],
+  "author": "Ahmet Atar",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "cli-spinners": "^2.6.1",
+    "inquirer": "^8.2.0",
+    "open": "^8.4.0",
+    "ora": "^6.0.1",
+    "request": "^2.88.2"
+  }
+}
